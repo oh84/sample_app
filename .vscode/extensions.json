@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "shopify.ruby-extensions-pack",
+    "aki77.rails-db-schema",
+    "aki77.rails-partial",
+    "aki77.rails-routes",
+    "aliariff.vscode-erb-beautify"
+  ]
+}
