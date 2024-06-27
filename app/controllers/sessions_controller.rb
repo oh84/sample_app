@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     if user && user.authenticate(params[:session][:password])
       # ユーザーログイン後にユーザーページにリダイレクトする
     else
-      flash[:danger] = 'Invalid email/password combination' # 本当は正しくない
+      flash.now[:danger] = 'Invalid email/password combination'
       render 'new', status: :unprocessable_entity
     end
   end
