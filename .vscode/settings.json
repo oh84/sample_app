@@ -4,5 +4,6 @@
   },
   "emmet.includeLanguages": {
     "erb": "html"
-  }
+  },
+  "rubyLsp.erbSupport": false
 }
