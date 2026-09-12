@@ -97,8 +97,8 @@ GEM
     bcrypt (3.1.18)
     benchmark (0.3.0)
     bindex (0.8.1)
-    bootsnap (1.16.0)
-      msgpack (~> 1.2)
+    bootsnap (1.26.0)
+      msgpack (~> 1.5)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
@@ -200,7 +200,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    msgpack (1.7.2)
+    msgpack (1.8.5)
     nenv (0.3.0)
     net-imap (0.4.12)
       date
@@ -400,7 +400,7 @@ DEPENDENCIES
   active_storage_validations (= 0.9.8)
   aws-sdk-s3 (= 1.114.0)
   bcrypt (= 3.1.18)
-  bootsnap (= 1.16.0)
+  bootsnap (= 1.26.0)
   bootstrap-sass (= 3.4.1)
   bootstrap-will_paginate (= 1.0.0)
   capybara (= 3.38.0)
